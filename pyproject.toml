@@ -1,0 +1,14 @@
+[project]
+name = "comfyui-plate-relight"
+description = "VFX post nodes: Light Transfer (relight a plate, keep its pixels), Temporal Deflicker for AI passes, and Add Light from Passes with cast shadows."
+version = "1.0.0"
+license = { file = "LICENSE" }
+dependencies = ["numpy", "opencv-python>=4.5"]
+
+[project.urls]
+Repository = "https://github.com/dughogan/comfyui-plate-relight"
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "Plate Relight"
+Icon = ""
